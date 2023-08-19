@@ -1,6 +1,9 @@
-<header>
-  <h1 class="text-3xl font-bold underline">Welcome to SvelteKit</h1>
-  <p class="text-l mt-10 ">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>  
-</header>
+<script>
+  import Translation from '../components/Translation.svelte'
 
+</script>
+<div class="ml-6">
+  <h1 class="text-3xl font-bold underline">Welcome to WordLink</h1>
+  <Translation/>
+</div>
 
